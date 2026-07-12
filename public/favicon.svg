@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">ベビー吹き出しメーカー</title>
+  <rect x="16" y="16" width="480" height="480" rx="120" fill="#fff0f5"/>
+
+  <!-- speech bubble -->
+  <rect x="92" y="76" width="328" height="154" rx="46" fill="#ffffff" stroke="#3b2930" stroke-width="16"/>
+  <path d="M225 230L255 266L287 230Z" fill="#ffffff" stroke="#3b2930" stroke-width="16" stroke-linejoin="round"/>
+
+  <!-- baby face -->
+  <circle cx="256" cy="360" r="96" fill="#ffdabd" stroke="#3b2930" stroke-width="14"/>
+  <path d="M220 296c18-28 63-27 76 6-31-9-43 7-45 25" fill="none" stroke="#3b2930" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="216" cy="360" r="10" fill="#3b2930"/>
+  <circle cx="296" cy="360" r="10" fill="#3b2930"/>
+  <path d="M236 406c12 18 38 18 50 0" fill="none" stroke="#3b2930" stroke-width="12" stroke-linecap="round"/>
+</svg>
