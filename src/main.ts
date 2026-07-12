@@ -38,8 +38,13 @@ const applyButton = required<HTMLButtonElement>("#applyButton");
 const downloadButton = required<HTMLButtonElement>("#downloadButton");
 const dropZone = required<HTMLElement>("#dropZone");
 
-const context = canvas.getContext("2d");
-if (!context) throw new Error("Canvas is not supported by this browser.");
+function getCanvasContext(canvas: HTMLCanvasElement): CanvasRenderingContext2D {
+  const context = canvas.getContext("2d");
+  if (!context) throw new Error("Canvas is not supported by this browser.");
+  return context;
+}
+
+const context = getCanvasContext(canvas);
 
 let sourceImage: HTMLImageElement | null = null;
 let currentCaption = "";
